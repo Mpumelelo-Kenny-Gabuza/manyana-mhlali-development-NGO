@@ -1,0 +1,28 @@
+.about-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/akhil-nath-EwREyNabbKc-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3rem 3rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+    color: #fff;
+}
+
+.about-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    /* opacity: 0.9; */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+
+.about-paragraph {
+    font-size: 1rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+}
