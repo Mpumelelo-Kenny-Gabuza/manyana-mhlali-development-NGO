@@ -7,11 +7,12 @@
     <script src="https://kit.fontawesome.com/f35d4106a4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/base_styles.css">
-    <link rel="stylesheet" href="styles/prospective_partners.css">
-    <title>Become a Partner at MANYANA MHLALI DEVELOPMENT</title>
+    <link rel="stylesheet" href="styles/partnership.css">
+    <title>Become a Partner</title>
 </head>
 
 <body>
+
     <!-- NAVBAR SECTION -->
     <div class="navbar_section">
         <div class="navbar_container">
@@ -51,6 +52,8 @@
                     </ul>
                 </li>
 
+                <!-- <li><a href="about_us.html" class="nav_link">Partnership</a></li> -->
+
                 <!-- Resources Dropdown -->
                 <li class="nav_dropdown">
                     <a href="" class="nav_link dropdown_toggle">Resources</a>
@@ -73,27 +76,117 @@
             </ul>
 
             <div class="navbar_buttons">
-                <!-- <button class="nav_btn help_btn"><a href="#programmes"> FIND SUPPORT</a></button> -->
+                <button class="nav_btn help_btn"><a href="#programmes"> FIND SUPPORT</a></button>
                 <button class="nav_btn donate_btn"><a href="donate.html"><i class="fa-solid fa-heart"></i> &nbsp;
                         DONATE</a></button>
             </div>
         </div>
     </div>
 
-    <section class="about-section">
-        <h2 class="about-heading">Become a Partner at Manyana Mhlali Development (MMD)</h2>
-        <p class="about-paragraph">Through collaborations and partnerships, we can achieve so much more for our brothers
-            and sisters in need</p>
+    <section class="hero">
+        <h1>Become a Partner</h1>
+        <p>Establish a corporate partnership to amplify our collective impact.</p>
     </section>
 
-    <div class="partnership_kind" style="text-align: center;padding-top: 2rem;">Partner individually or as an entity</d>
-        <div>Please fill out the form below get started</div>
+    <!-- <section class="container">
+        <div class="page-content">
+            <h2>Partnership Opportunities</h2>
+            <p>Partner with Manyana Mhlali Development to create sustainable change in our community. Together, we can
+                address critical social issues and build a stronger, more resilient society.</p>
 
-        <section class="container" id="partner-form">
+            <div class="partnership-tiers">
+                <div class="tier-card">
+                    <div class="tier-header">
+                        <h3>Community Partner</h3>
+                        <div class="tier-icon">🤝</div>
+                    </div>
+                    <div class="tier-content">
+                        <ul>
+                            <li>Annual contribution: R5,000 - R20,000</li>
+                            <li>Logo placement on website</li>
+                            <li>Quarterly impact reports</li>
+                            <li>Social media recognition</li>
+                            <li>Invitation to annual community event</li>
+                        </ul>
+                        <a href="#partner-form" class="btn btn-tier">Express Interest</a>
+                    </div>
+                </div>
+
+                <div class="tier-card featured">
+                    <div class="tier-header">
+                        <h3>Impact Partner</h3>
+                        <div class="tier-icon">🌟</div>
+                    </div>
+                    <div class="tier-content">
+                        <ul>
+                            <li>Annual contribution: R20,000 - R50,000</li>
+                            <li>Programme sponsorship opportunities</li>
+                            <li>Featured partner on website and materials</li>
+                            <li>Monthly impact updates</li>
+                            <li>Employee volunteering opportunities</li>
+                            <li>Annual partnership certificate</li>
+                        </ul>
+                        <a href="#partner-form" class="btn btn-tier">Express Interest</a>
+                    </div>
+                </div>
+
+                <div class="tier-card">
+                    <div class="tier-header">
+                        <h3>Strategic Partner</h3>
+                        <div class="tier-icon">🚀</div>
+                    </div>
+                    <div class="tier-content">
+                        <ul>
+                            <li>Annual contribution: R50,000+</li>
+                            <li>Customized partnership package</li>
+                            <li>Naming rights for specific programmes</li>
+                            <li>Board-level engagement opportunities</li>
+                            <li>Comprehensive impact reporting</li>
+                            <li>Media and PR opportunities</li>
+                        </ul>
+                        <a href="#partner-form" class="btn btn-tier">Express Interest</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <section class="benefits-section">
+        <div class="container">
+            <h2>Benefits of Partnership</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">🌍</div>
+                    <h3>Social Impact</h3>
+                    <p>Direct contribution to meaningful community development and social transformation.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">📈</div>
+                    <h3>Brand Alignment</h3>
+                    <p>Align your brand with sustainable development and corporate social responsibility.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">👥</div>
+                    <h3>Employee Engagement</h3>
+                    <p>Opportunities for staff volunteering, team building, and skills development.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">📊</div>
+                    <h3>Measurable Results</h3>
+                    <p>Transparent reporting on how your contribution creates tangible change.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="container" id="partner-form">
         <div class="form-container">
             <h2>Partnership Inquiry Form</h2>
-            <!-- <p>Interested in partnering with us? Please fill out this form and our partnership team will contact you
-                within 48 hours.</p> -->
+            <p>Interested in partnering with us? Please fill out this form and our partnership team will contact you
+                within 48 hours.</p>
 
             <form action="#" method="POST" class="partnership-form">
                 <div class="form-row">
@@ -131,6 +224,17 @@
                         <option value="foundation">Foundation/Trust</option>
                     </select>
                 </div>
+
+                <!-- <div class="form-group">
+                    <label for="partnership-tier">Partnership Tier of Interest</label>
+                    <select id="partnership-tier" name="partnership_tier">
+                        <option value="">Select preferred tier</option>
+                        <option value="community">Community Partner (R5k - R20k)</option>
+                        <option value="impact">Impact Partner (R20k - R50k)</option>
+                        <option value="strategic">Strategic Partner (R50k+)</option>
+                        <option value="custom">Custom Partnership</option>
+                    </select>
+                </div> -->
 
                 <div class="form-group">
                     <label for="interest-area">Areas of Interest *</label>
@@ -181,67 +285,66 @@
         </div>
     </section>
 
-        <footer class="site_footer">
-            <div class="footer_container">
+    <footer class="site_footer">
+        <div class="footer_container">
 
-                <!-- Main Footer Content -->
-                <div class="footer_main">
+            <!-- Main Footer Content -->
+            <div class="footer_main">
 
-                    <!-- Organization Info -->
-                    <div class="footer_column">
-                        <div class="footer_logo">
-                            <h2 class="logo_text">MMD</h2>
-                            <span class="logo_subtitle">Manyana Mhlali Development</span>
-                        </div>
-                    </div>
-
-                    <!-- Programmes -->
-                    <div class="footer_column">
-                        <h3 class="footer_heading">Our Programmes</h3>
-                        <ul class="footer_links">
-                            <li><a href="programmes/Gender_Based_Violence.html">Gender-Based Violence Prevention</a>
-                            </li>
-                            <li><a href="#mental-health">Mental Health Support</a></li>
-                            <li><a href="#circumcision">Safe Male Circumcision</a></li>
-                            <li><a href="#livelihoods">Sustainable Livelihoods</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Legal & Governance -->
-                    <div class="footer_column">
-                        <h3 class="footer_heading">Legal & Governance</h3>
-                        <ul class="footer_links">
-                            <li><a href="#constitution">Our Constitution</a></li>
-                            <li><a href="#governance">Governing Board</a></li>
-                            <li><a href="#financials">Financial Reports</a></li>
-                            <li><a href="#policies">Policies</a></li>
-                            <li><a href="#pbo">PBO Status</a></li>
-                        </ul>
+                <!-- Organization Info -->
+                <div class="footer_column">
+                    <div class="footer_logo">
+                        <h2 class="logo_text">MMD</h2>
+                        <span class="logo_subtitle">Manyana Mhlali Development</span>
                     </div>
                 </div>
 
-                <!-- Bottom Footer -->
-                <div class="footer_bottom">
-                    <div class="footer_bottom_content">
-                        <div class="copyright">
-                            <p>&copy; 2025 Manyana Mhlali Development NPC. All rights reserved.</p>
-                        </div>
+                <!-- Programmes -->
+                <div class="footer_column">
+                    <h3 class="footer_heading">Our Programmes</h3>
+                    <ul class="footer_links">
+                        <li><a href="/programmes/Gender_Based_Violence.html">Gender-Based Violence Prevention</a></li>
+                        <li><a href="/programmes/Mental_Health.html">Mental Health Support</a></li>
+                        <li><a href="/programmes/Male_Circumsition.html">Safe Male Circumcision</a></li>
+                        <li><a href="/programmes/Sustainable_Livelyhoods.html">Sustainable Livelihoods</a></li>
+                    </ul>
+                </div>
 
-                        <!-- <div class="footer_legal">
+                <!-- Legal & Governance -->
+                <div class="footer_column">
+                    <h3 class="footer_heading">Legal & Governance</h3>
+                    <ul class="footer_links">
+                        <li><a href="#constitution">Our Constitution</a></li>
+                        <li><a href="#governance">Governing Board</a></li>
+                        <li><a href="#financials">Financial Reports</a></li>
+                        <li><a href="#policies">Policies</a></li>
+                        <li><a href="#pbo">PBO Status</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="footer_bottom">
+                <div class="footer_bottom_content">
+                    <div class="copyright">
+                        <p>&copy; 2025 Manyana Mhlali Development NPC. All rights reserved.</p>
+                    </div>
+
+                    <!-- <div class="footer_legal">
                         <a href="#privacy">Privacy Policy</a>
                         <a href="#terms">Terms of Service</a>
                         <a href="#cookies">Cookie Policy</a>
                     </div> -->
 
-                        <div class="credit">
-                            <p>Website Developed by <a href="http://" target="_blank" rel="noopener noreferrer">MLIFI
-                                    SOLUTIONS</a></p>
-                            <!-- <p>Registered Non-Profit Company | Section 18A Approved</p> -->
-                        </div>
+                    <div class="credit">
+                        <p>Website Developed by <a href="http://" target="_blank" rel="noopener noreferrer">MLIFI
+                                SOLUTIONS</a></p>
+                        <!-- <p>Registered Non-Profit Company | Section 18A Approved</p> -->
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
+    <script src="script/main.js"></script>
 </body>
-
 </html>
