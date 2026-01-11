@@ -184,7 +184,7 @@ document.querySelectorAll('.op-itemmm').forEach(item => {
         const title = this.querySelector('.option_title').textContent;
         alert(`Thank you for your interest in "${title}"! You will be redirected to more information.`);
         // In a real implementation, this would redirect to the appropriate page
-        window.location.href = '/prospective_partners.html';
+        window.location.href = './prospective_partners.html';
     });
 });
 
@@ -193,7 +193,7 @@ document.querySelectorAll('.op_itemm').forEach(item => {
         const title = this.querySelector('.option_title').textContent;
         alert(`Thank you for your interest in "${title}"! You will be redirected to more information.`);
         // In a real implementation, this would redirect to the appropriate page
-        window.location.href = '/volunteer.html';
+        window.location.href = './volunteer.html';
     });
 });
 
@@ -202,7 +202,7 @@ document.querySelectorAll('.op_item').forEach(item => {
         const title = this.querySelector('.option_title').textContent;
         alert(`Thank you for your interest in "${title}"! You will be redirected to more information.`);
         // In a real implementation, this would redirect to the appropriate page
-        window.location.href = '/donate.html';
+        window.location.href = './donate.html';
     });
 });
 
